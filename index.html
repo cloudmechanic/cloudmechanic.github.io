@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://sept-aisf.cs94.force.com/litng/lightning/lightning.out.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120684480-1"></script>
 <script>
@@ -26,6 +27,21 @@
   <div class="content">
     <div class="container wow fadeInUp delay-03s">
       <div class="row">
+        <script>
+    $Lightning.use("c:locatorApp",    // name of the Lightning app
+        function() {                  // Callback once framework and app loaded
+            $Lightning.createComponent(
+                "c:storeLocatorMain", // top-level component of your app
+                { },                  // attributes to set on the component when created
+                "lightningLocator",   // the DOM location to insert the component
+                function(cmp) {
+                    // callback when component is created and active on the page
+                }
+            );
+        },
+        'https://universalcontainers.force.com/ourstores/'  // Community endpoint
+    );
+</script>
         <div class="logo text-center">
           <img src="img/logo.png" alt="logo" width="150">
           <h2>The Smart Way to Shread</h2>
