@@ -12,6 +12,7 @@
 *
 * ======================================================= */
 body {
+<<<<<<< HEAD
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
@@ -101,6 +102,49 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .header-top .fh5co-link {
+=======
+	line-height: 1.2;
+    height: 100%;
+    background: #000 url('../img/banner02.jpg') no-repeat center top;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************
+***********************************/
+/**********************************
+***********************************/
+.content
+{
+	margin-top: 50px;
+	color: #fff;
+}
+.logo img
+{
+	display: inline-block;
+}
+.logo h2
+{
+	font-family: 'Lobster', cursive;
+	font-size: 34px;
+    padding-top: 40px;
+}
+#countdown {
+>>>>>>> cbcbf638c9739ea0b573763207453c68b8ddfd25
     text-align: center;
   }
 }
@@ -1955,6 +1999,7 @@ div.cs-select span {
 .lead {
   line-height: 1.8;
 }
+<<<<<<< HEAD
 
 .no-js #loader {
   display: none;
@@ -1978,3 +2023,6 @@ div.cs-select span {
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+}
+>>>>>>> cbcbf638c9739ea0b573763207453c68b8ddfd25
